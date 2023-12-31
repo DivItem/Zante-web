@@ -1,0 +1,141 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ .slide-text {
+  padding: 35px 50px 50px 50px;
+}
+.slide-text h2 {
+  font-size: 40px;
+}
+.slide-text > p {
+  font-size: 15px;
+}
+.star-rating-wrapper {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.single-post-content p {
+  font-size: 12px;
+}
+.single-post-link {
+  margin-bottom: 13px;
+}
+.single-post-link ul li a {
+  padding: 3px 7px 5px 7px;
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.navbar-inverse .navbar-nav > li > a {
+  padding: 15px 9px;
+}
+.top-bar.dark a.logo img {
+  max-width: 132px;
+}
+.top-bar .dropdown {
+  margin-top: 8px;
+}
+.slide-text {
+  padding: 35px 50px 50px 50px;
+}
+.slide-text h2 {
+  font-size: 30px;
+}
+.slide-text > p {
+  font-size: 15px;
+}
+.slide-text .box-btn {
+  font-size: 16px;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+.single-post-content p {
+  margin: 11px 0;
+}
+.star-rating-wrapper {
+  margin: 11px 0;
+}
+
+
+
+	
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.navbar-inverse .navbar-brand {
+  font-size: 25px;
+}
+.top-bar.dark a.logo img {
+  max-width: 100px;
+}
+.top-bar .dropdown {
+  margin-top: 3px;
+}
+.navbar-inverse .navbar-nav > li > a:hover::after, nav.sticky .navbar-nav > li > a:hover::after, .navbar-nav > li > a.active::after, nav.sticky .navbar-nav > li > a.active::after {
+  width: 0;
+  left: 0;
+  background: transparent;
+}
+.single-slide-item, .single-slide-item-2, .single-slide-item-3 {
+  padding: 30px 0;
+}
+.slide-text {
+  padding: 30px 20px;
+}
+.slide-text h2 {
+  font-size: 22px;
+  margin-bottom: 13px;
+}
+.slide-text > p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.slide-text .box-btn {
+  font-size: 14px;
+  margin-top: 7px;
+  padding: 8px 15px;
+}
+.owl-controls .owl-nav {
+  display: none;
+}
+.single-post-content {
+  margin-top: 0;
+  margin-left: 0;
+  padding: 10px 5px 20px 15px;
+}
+.single-post-content h3 {
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+.info-btn ul li a {
+  padding: 2px 5px 5px 5px;
+}
+.single-post-content p {
+  margin: 9px 0 14px 0;
+}
+.star-rating-wrapper {
+  margin: 10px 0 8px 0;
+}
+.single-post-link ul li a {
+  padding: 3px 5px 5px 5px;
+  font-size: 10px;
+  margin-right: 2px;
+}
+
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.single-post-link ul li a {
+  padding: 3px 10px 5px 10px;
+  font-size: 14px;
+  margin-right: 4px;
+}
+
+
+
+
+}
